@@ -1,7 +1,7 @@
 
 
 
-file(GLOB test_sources *_test.c *.cpp)
+file(GLOB test_sources *_test.c)
 foreach(test_c ${test_sources})
     get_filename_component(testname ${test_c} NAME_WE)
     add_executable(${testname} ${test_c})
@@ -16,8 +16,10 @@ foreach(test_c ${test_sources})
     )
 endforeach(test_c)
 
+add_executable(my_suffix_array_test my_suffix_array_test.cpp)
+target_link_libraries(my_suffix_array_test stralg)
 add_test(
-	NAME my_test
+	NAME my_suffix_array_test
     COMMAND 
 	#sh -c "$<TARGET_FILE:my_suffix_array_test> test-data/clusters_VGR.txt test-data/text_patterns.txt"
 	sh -c "$<TARGET_FILE:my_suffix_array_test> test-data/text_data.txt test-data/text_data_patterns.txt"
