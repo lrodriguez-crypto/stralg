@@ -26,6 +26,12 @@ add_test(
     WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}/tests/stralg"
 )
 add_test(
+	NAME my_suffix_array_search
+    COMMAND 
+	sh -c "$<TARGET_FILE:my_suffix_array_test> test-data/x_model.txt test-data/x_traces.txt"
+    WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}/tests/stralg"
+)
+add_test(
     NAME Match[modest-proposal]
     COMMAND
     sh -c "$<TARGET_FILE:match_test> the test-data/modest-proposal.txt"

@@ -1,0 +1,698 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AHO_CORASICK_H	stralg/aho_corasick.h	2;"	d
+AS	stralg/skew.c	38;"	d	file:
+B	stralg/skew.c	37;"	d	file:
+BMH_JUMP	stralg/match.c	220;"	d	file:
+BM_JUMP	stralg/match.c	318;"	d	file:
+BORDERS	stralg/borders.h	3;"	d
+BWT_H	stralg/bwt.h	3;"	d
+BWT_TABLES_DIFFER	stralg/error.h	/^    BWT_TABLES_DIFFER,$/;"	e	enum:error_codes
+C	stralg/bwt.h	48;"	d
+CANNOT_OPEN_FILE	stralg/error.h	/^    CANNOT_OPEN_FILE,$/;"	e	enum:error_codes
+CHECK_INDEX	stralg/skew.c	210;"	d	file:
+CHECK_ISA	stralg/skew.c	217;"	d	file:
+CIGAR_H	stralg/cigar.h	3;"	d
+DATA_TYPES_H	stralg/queues.h	2;"	d
+DELETION	stralg/edit_distance_generator.c	/^    DELETION,$/;"	e	enum:edit_op	file:
+D_table	stralg/bwt.h	/^    int *D_table;$/;"	m	struct:bwt_approx_iter
+EA_SUFFIX_TREE	stralg/edge_array_suffix_tree.h	3;"	d
+EDIT_DISTANCE_GENERATOR_H	stralg/edit_distance_generator.h	3;"	d
+ERROR_H	stralg/error.h	3;"	d
+INSERTION	stralg/edit_distance_generator.c	/^    INSERTION,$/;"	e	enum:edit_op	file:
+IO_H	stralg/io.h	2;"	d
+ISA	stralg/skew.c	216;"	d	file:
+KEY	stralg/skew.c	51;"	d	file:
+L	stralg/bwt.h	/^    uint32_t L, R, next_interval;$/;"	m	struct:bwt_approx_iter
+L	stralg/bwt.h	/^    uint32_t L;$/;"	m	struct:bwt_exact_match_iter
+L	stralg/sa_is.c	12;"	d	file:
+L	stralg/sa_is_mem.c	12;"	d	file:
+L	stralg/suffix_array.h	/^    uint32_t L;$/;"	m	struct:sa_match_iter
+LESS	stralg/skew.c	235;"	d	file:
+LEX3	stralg/skew.c	47;"	d	file:
+LISTS_H	stralg/lists.h	2;"	d
+Ls	stralg/bwt.h	/^    struct index_vector  Ls;$/;"	m	struct:bwt_approx_iter	typeref:struct:bwt_approx_iter::index_vector
+MALFORMED_CIGAR	stralg/error.h	/^    MALFORMED_CIGAR$/;"	e	enum:error_codes
+MALFORMED_FILE	stralg/error.h	/^    MALFORMED_FILE,$/;"	e	enum:error_codes
+MATCH	stralg/edit_distance_generator.c	/^    MATCH$/;"	e	enum:edit_op	file:
+MATCH_H	stralg/match.h	2;"	d
+MAX	stralg/match.c	/^static inline uint32_t MAX(uint32_t a, uint32_t b) {$/;"	f	file:
+NO_ERROR	stralg/error.h	/^    NO_ERROR,$/;"	e	enum:error_codes
+O	stralg/bwt.h	49;"	d
+PRINT_STACK	stralg/bwt.c	10;"	d	file:
+R	stralg/bwt.h	/^    uint32_t L, R, next_interval;$/;"	m	struct:bwt_approx_iter
+R	stralg/bwt.h	/^    uint32_t R;$/;"	m	struct:bwt_exact_match_iter
+R	stralg/suffix_array.h	/^    uint32_t R;$/;"	m	struct:sa_match_iter
+RAWKEY	stralg/skew.c	50;"	d	file:
+RECURSE	stralg/edit_distance_generator.c	/^    RECURSE,$/;"	e	enum:edit_op	file:
+REMAP_H	stralg/remap.h	2;"	d
+REMAP_TABLES_DIFFER	stralg/error.h	/^    REMAP_TABLES_DIFFER,$/;"	e	enum:error_codes
+RO	stralg/bwt.h	50;"	d
+Rs	stralg/bwt.h	/^    struct index_vector  Rs;$/;"	m	struct:bwt_approx_iter	typeref:struct:bwt_approx_iter::index_vector
+S	stralg/sa_is.c	11;"	d	file:
+S	stralg/sa_is_mem.c	11;"	d	file:
+SA12	stralg/skew.c	39;"	d	file:
+SA3	stralg/skew.c	40;"	d	file:
+SERIALISE_H	stralg/serialise.h	3;"	d
+STRALG_H	stralg/stralg.h	2;"	d
+STRING_UTILS	stralg/string_utils.h	2;"	d
+SUFFIX_ARRAYS_DIFFER	stralg/error.h	/^    SUFFIX_ARRAYS_DIFFER,$/;"	e	enum:error_codes
+SUFFIX_ARRAY_H	stralg/suffix_array.h	3;"	d
+SUFFIX_ARRAY_INTERNAL_H	stralg/suffix_array_internal.h	2;"	d
+SUFFIX_TREE	stralg/suffix_tree.h	3;"	d
+TRIE_H	stralg/trie.h	2;"	d
+UNDEFINED	stralg/sa_is.c	16;"	d	file:
+UNDEFINED	stralg/sa_is_mem.c	16;"	d	file:
+VECTORS_H	stralg/vectors.h	2;"	d
+a	stralg/edit_distance_generator.c	/^    char a;$/;"	m	struct:deletion_info	file:
+a	stralg/edit_distance_generator.c	/^    char a;$/;"	m	struct:match_info	file:
+a	stralg/edit_distance_generator.c	/^    uint8_t a;$/;"	m	struct:edit_iter_frame	file:
+ac_iter	stralg/aho_corasick.h	/^struct ac_iter {$/;"	s
+ac_match	stralg/aho_corasick.h	/^struct ac_match {$/;"	s
+add_string_to_trie	stralg/trie.c	/^void add_string_to_trie($/;"	f
+alloc_bwt_table	stralg/bwt.c	/^alloc_bwt_table($/;"	f
+alloc_index_queue	stralg/queues.h	/^alloc_index_queue(void) {$/;"	f
+alloc_index_vector	stralg/vectors.h	/^alloc_index_vector($/;"	f
+alloc_pointer_queue	stralg/queues.h	/^alloc_pointer_queue(void)$/;"	f
+alloc_pointer_vector	stralg/vectors.h	/^alloc_pointer_vector($/;"	f
+alloc_queue	stralg/queues.h	15;"	d
+alloc_remap_table	stralg/remap.c	/^alloc_remap_table($/;"	f
+alloc_string_vector	stralg/vectors.h	/^alloc_string_vector($/;"	f
+alloc_suffix_tree	stralg/edge_array_suffix_tree.c	/^alloc_suffix_tree($/;"	f	file:
+alloc_suffix_tree	stralg/suffix_tree.c	/^alloc_suffix_tree($/;"	f	file:
+alloc_trie	stralg/trie.c	/^struct trie *alloc_trie(void)$/;"	f
+allocate_sa_	stralg/suffix_array_internal.c	/^struct suffix_array *allocate_sa_(uint8_t *string)$/;"	f
+alphabet	stralg/edit_distance_generator.h	/^    const char *alphabet;$/;"	m	struct:edit_iter
+alphabet_size	stralg/edge_array_suffix_tree.h	/^    uint32_t alphabet_size;$/;"	m	struct:ea_suffix_tree
+alphabet_size	stralg/remap.h	/^    uint32_t alphabet_size;$/;"	m	struct:remap_table
+annotate_ea_suffix_links	stralg/edge_array_suffix_tree.c	/^void annotate_ea_suffix_links($/;"	f
+annotate_suffix_links	stralg/suffix_tree.c	/^void annotate_suffix_links($/;"	f
+append_child	stralg/suffix_tree.c	/^static void append_child($/;"	f	file:
+approx_iter	stralg/edge_array_suffix_tree.h	/^    struct internal_ea_st_approx_iter *approx_iter;$/;"	m	struct:ea_st_approx_match_iter	typeref:struct:ea_st_approx_match_iter::internal_ea_st_approx_iter
+array	stralg/suffix_array.h	/^    uint32_t *array;$/;"	m	struct:suffix_array
+at_beginning	stralg/edit_distance_generator.c	/^    bool at_beginning;$/;"	m	struct:edit_iter_frame	file:
+b	stralg/match.h	/^    uint32_t i; uint32_t b;$/;"	m	struct:border_match_iter
+ba	stralg/match.h	/^    uint32_t *ba;$/;"	m	struct:kmp_match_iter
+back	stralg/queues.h	/^    struct index_linked_list *back;$/;"	m	struct:index_queue	typeref:struct:index_queue::index_linked_list
+back	stralg/queues.h	/^    struct pointer_linked_list *back;$/;"	m	struct:pointer_queue	typeref:struct:pointer_queue::pointer_linked_list
+backmapped	stralg/remap.c	/^uint8_t *backmapped($/;"	f
+bm_match_iter	stralg/match.h	/^struct bm_match_iter {$/;"	s
+bmh_match_iter	stralg/match.h	/^struct bmh_match_iter {$/;"	s
+border_array	stralg/match.h	/^    uint32_t *border_array;$/;"	m	struct:border_match_iter
+border_match_iter	stralg/match.h	/^struct border_match_iter {$/;"	s
+build_complete_table	stralg/bwt.c	/^struct bwt_table *build_complete_table($/;"	f
+build_remap_table	stralg/remap.c	/^void build_remap_table($/;"	f
+bwt	stralg/bwt.c	/^static inline unsigned char bwt($/;"	f	file:
+bwt_approx_iter	stralg/bwt.h	/^struct bwt_approx_iter {$/;"	s
+bwt_approx_match	stralg/bwt.h	/^struct bwt_approx_match {$/;"	s
+bwt_exact_match	stralg/bwt.h	/^struct bwt_exact_match {$/;"	s
+bwt_exact_match_iter	stralg/bwt.h	/^struct bwt_exact_match_iter {$/;"	s
+bwt_table	stralg/bwt.h	/^    struct bwt_table *bwt_table;$/;"	m	struct:bwt_approx_iter	typeref:struct:bwt_approx_iter::bwt_table
+bwt_table	stralg/bwt.h	/^struct bwt_table {$/;"	s
+c_table	stralg/bwt.h	/^    uint32_t *c_table;$/;"	m	struct:bwt_table
+child	stralg/suffix_tree.h	/^    struct suffix_tree_node *child;$/;"	m	struct:suffix_tree_node	typeref:struct:suffix_tree_node::suffix_tree_node
+children	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node **children;$/;"	m	struct:ea_suffix_tree_children_pool	typeref:struct:ea_suffix_tree_children_pool::ea_suffix_tree_node
+children	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node **children;$/;"	m	struct:ea_suffix_tree_node	typeref:struct:ea_suffix_tree_node::ea_suffix_tree_node
+children	stralg/trie.h	/^    struct trie *children;$/;"	m	struct:trie	typeref:struct:trie::trie
+children_pool	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_children_pool children_pool;$/;"	m	struct:ea_suffix_tree	typeref:struct:ea_suffix_tree::ea_suffix_tree_children_pool
+cigar	stralg/bwt.h	/^    const char *cigar;$/;"	m	struct:bwt_approx_match
+cigar	stralg/edge_array_suffix_tree.h	/^    char *cigar;$/;"	m	struct:ea_st_approx_frame
+cigar	stralg/edge_array_suffix_tree.h	/^    const char *cigar;$/;"	m	struct:ea_st_approx_match
+cigar	stralg/edge_array_suffix_tree.h	/^    const char *cigar;$/;"	m	struct:internal_ea_st_approx_match
+cigar	stralg/edit_distance_generator.h	/^    char *cigar;$/;"	m	struct:edit_iter
+cigar	stralg/edit_distance_generator.h	/^    const char *cigar;$/;"	m	struct:edit_pattern
+cigar	stralg/suffix_tree.h	/^    const char *cigar;$/;"	m	struct:st_approx_match
+cigar_alignment	stralg/cigar.c	/^uint8_t *cigar_alignment($/;"	f
+cigar_alignment_internal	stralg/cigar.c	/^static uint8_t *cigar_alignment_internal($/;"	f	file:
+cigar_buf	stralg/edge_array_suffix_tree.h	/^    char *cigar_buf;$/;"	m	struct:internal_ea_st_approx_iter
+cigar_buffer	stralg/suffix_tree.c	/^    char *cigar_buffer;$/;"	m	struct:collect_nodes_data	file:
+cigar_front	stralg/edit_distance_generator.c	/^    char *cigar_front;$/;"	m	struct:edit_iter_frame	file:
+cigar_op	stralg/edge_array_suffix_tree.h	/^    char cigar_op;$/;"	m	struct:ea_st_approx_frame
+cigars	stralg/bwt.h	/^    struct string_vector cigars;$/;"	m	struct:bwt_approx_iter	typeref:struct:bwt_approx_iter::string_vector
+cigars	stralg/suffix_tree.h	/^    struct string_vector cigars;$/;"	m	struct:st_approx_match_iter	typeref:struct:st_approx_match_iter::string_vector
+classify_SL	stralg/sa_is.c	/^static void classify_SL($/;"	f	file:
+classify_SL	stralg/sa_is_mem.c	/^static void classify_SL($/;"	f	file:
+collect_approx_hits	stralg/suffix_tree.c	/^static void collect_approx_hits($/;"	f	file:
+collect_nodes_data	stralg/suffix_tree.c	/^struct collect_nodes_data {$/;"	s	file:
+completely_dealloc_bwt_table	stralg/bwt.c	/^void completely_dealloc_bwt_table($/;"	f
+completely_free_bwt_table	stralg/bwt.c	/^void completely_free_bwt_table($/;"	f
+compute_border_array	stralg/borders.c	/^void compute_border_array($/;"	f
+compute_buckets	stralg/sa_is.c	/^static void compute_buckets($/;"	f	file:
+compute_buckets	stralg/sa_is_mem.c	/^static void compute_buckets($/;"	f	file:
+compute_failure_link_for_node	stralg/trie.c	/^static void compute_failure_link_for_node($/;"	f	file:
+compute_failure_links	stralg/trie.c	/^void compute_failure_links($/;"	f
+compute_inverse	stralg/suffix_array.c	/^void compute_inverse(struct suffix_array *sa)$/;"	f
+compute_lcp	stralg/suffix_array.c	/^void compute_lcp(struct suffix_array *sa)$/;"	f
+compute_reverse_border_array	stralg/borders.c	/^void compute_reverse_border_array($/;"	f
+compute_reverse_restricted_border_array	stralg/borders.c	/^void compute_reverse_restricted_border_array($/;"	f
+compute_reverse_z_array	stralg/borders.c	/^void compute_reverse_z_array($/;"	f
+compute_z_array	stralg/borders.c	/^void compute_z_array($/;"	f
+computed_restricted_border_array	stralg/borders.c	/^void computed_restricted_border_array($/;"	f
+construct_sa3	stralg/skew.c	/^static void construct_sa3($/;"	f	file:
+construct_u	stralg/skew.c	/^static void construct_u($/;"	f	file:
+construction_cmpfunc	stralg/suffix_array.c	/^int construction_cmpfunc(const void *a, const void *b)$/;"	f	file:
+current_index	stralg/match.h	/^    uint32_t current_index;$/;"	m	struct:naive_match_iter
+current_tree_index	stralg/suffix_tree.h	/^    uint32_t current_tree_index;$/;"	m	struct:st_approx_match_iter
+current_u	stralg/skew.c	/^    uint32_t current_u;$/;"	m	struct:skew_buffers	file:
+data	stralg/lists.h	/^    uint32_t data;$/;"	m	struct:index_linked_list
+data	stralg/lists.h	/^    void *data;$/;"	m	struct:pointer_linked_list
+data	stralg/vectors.h	/^    uint32_t *data;$/;"	m	struct:index_vector
+data	stralg/vectors.h	/^    uint8_t **data;$/;"	m	struct:string_vector
+data	stralg/vectors.h	/^    void **data;$/;"	m	struct:pointer_vector
+dealloc_ac_iter	stralg/aho_corasick.c	/^void dealloc_ac_iter(struct ac_iter *iter)$/;"	f
+dealloc_bm_match_iter	stralg/match.c	/^void dealloc_bm_match_iter($/;"	f
+dealloc_bmh_match_iter	stralg/match.c	/^void dealloc_bmh_match_iter($/;"	f
+dealloc_border_match_iter	stralg/match.c	/^void dealloc_border_match_iter($/;"	f
+dealloc_bwt_approx_iter	stralg/bwt.c	/^void dealloc_bwt_approx_iter($/;"	f
+dealloc_bwt_exact_match_iter	stralg/bwt.c	/^void dealloc_bwt_exact_match_iter($/;"	f
+dealloc_bwt_table	stralg/bwt.c	/^void dealloc_bwt_table($/;"	f
+dealloc_ea_st_approx_iter	stralg/edge_array_suffix_tree.c	/^void dealloc_ea_st_approx_iter($/;"	f
+dealloc_ea_st_leaf_iter	stralg/edge_array_suffix_tree.c	/^void dealloc_ea_st_leaf_iter($/;"	f
+dealloc_ea_st_search_iter	stralg/edge_array_suffix_tree.c	/^void dealloc_ea_st_search_iter($/;"	f
+dealloc_edit_iter	stralg/edit_distance_generator.c	/^void dealloc_edit_iter(struct edit_iter *iter)$/;"	f
+dealloc_index_queue	stralg/queues.h	/^static inline void dealloc_index_queue($/;"	f
+dealloc_index_vector	stralg/vectors.h	/^static inline void dealloc_index_vector($/;"	f
+dealloc_internal_ea_st_approx_iter	stralg/edge_array_suffix_tree.c	/^void dealloc_internal_ea_st_approx_iter($/;"	f
+dealloc_kmp_match_iter	stralg/match.c	/^void dealloc_kmp_match_iter($/;"	f
+dealloc_naive_match_iter	stralg/match.c	/^void dealloc_naive_match_iter($/;"	f
+dealloc_pointer_queue	stralg/queues.h	/^static inline void dealloc_pointer_queue($/;"	f
+dealloc_pointer_vector	stralg/vectors.h	/^static inline void dealloc_pointer_vector($/;"	f
+dealloc_queue	stralg/queues.h	41;"	d
+dealloc_remap_table	stralg/remap.c	/^void dealloc_remap_table($/;"	f
+dealloc_sa_match_iter	stralg/suffix_array.c	/^void dealloc_sa_match_iter(struct sa_match_iter *iter)$/;"	f
+dealloc_st_approx_iter	stralg/suffix_tree.c	/^void dealloc_st_approx_iter($/;"	f
+dealloc_st_leaf_iter	stralg/suffix_tree.c	/^void dealloc_st_leaf_iter($/;"	f
+dealloc_st_search_iter	stralg/suffix_tree.c	/^void dealloc_st_search_iter($/;"	f
+dealloc_string_vector	stralg/vectors.h	/^static inline void dealloc_string_vector($/;"	f
+dealloc_trie	stralg/trie.c	/^void dealloc_trie($/;"	f
+dealloc_vector	stralg/vectors.h	14;"	d
+deletion_info	stralg/edit_distance_generator.c	/^struct deletion_info {$/;"	s	file:
+dequeue	stralg/queues.h	30;"	d
+dequeue_index	stralg/queues.h	/^static inline void dequeue_index($/;"	f
+dequeue_pointer	stralg/queues.h	/^static inline void dequeue_pointer($/;"	f
+ea_edge_length	stralg/edge_array_suffix_tree.h	/^static inline uint32_t ea_edge_length($/;"	f
+ea_st_approx_frame	stralg/edge_array_suffix_tree.h	/^struct ea_st_approx_frame {$/;"	s
+ea_st_approx_match	stralg/edge_array_suffix_tree.h	/^struct ea_st_approx_match {$/;"	s
+ea_st_approx_match_iter	stralg/edge_array_suffix_tree.h	/^struct ea_st_approx_match_iter {$/;"	s
+ea_st_compute_sa_and_lcp	stralg/edge_array_suffix_tree.c	/^void ea_st_compute_sa_and_lcp($/;"	f
+ea_st_leaf_iter	stralg/edge_array_suffix_tree.h	/^struct ea_st_leaf_iter {$/;"	s
+ea_st_leaf_iter_frame	stralg/edge_array_suffix_tree.c	/^struct ea_st_leaf_iter_frame {$/;"	s	file:
+ea_st_leaf_iter_result	stralg/edge_array_suffix_tree.h	/^struct ea_st_leaf_iter_result {$/;"	s
+ea_st_print_dot	stralg/edge_array_suffix_tree.c	/^void ea_st_print_dot($/;"	f
+ea_st_print_dot_name	stralg/edge_array_suffix_tree.c	/^void ea_st_print_dot_name($/;"	f
+ea_st_search	stralg/edge_array_suffix_tree.c	/^ea_st_search($/;"	f
+ea_st_search_internal	stralg/edge_array_suffix_tree.c	/^ea_st_search_internal($/;"	f	file:
+ea_st_search_iter	stralg/edge_array_suffix_tree.h	/^struct ea_st_search_iter {$/;"	s
+ea_st_search_match	stralg/edge_array_suffix_tree.h	/^struct ea_st_search_match {$/;"	s
+ea_suffix_tree	stralg/edge_array_suffix_tree.h	/^struct ea_suffix_tree {$/;"	s
+ea_suffix_tree_children_pool	stralg/edge_array_suffix_tree.h	/^struct ea_suffix_tree_children_pool {$/;"	s
+ea_suffix_tree_node	stralg/edge_array_suffix_tree.h	/^struct ea_suffix_tree_node {$/;"	s
+ea_suffix_tree_node_pool	stralg/edge_array_suffix_tree.h	/^struct ea_suffix_tree_node_pool {$/;"	s
+edge_length	stralg/suffix_tree.h	/^static inline uint32_t edge_length($/;"	f
+edit	stralg/edge_array_suffix_tree.h	/^    int edit;$/;"	m	struct:ea_st_approx_frame
+edit_iter	stralg/edit_distance_generator.h	/^struct edit_iter {$/;"	s
+edit_iter_frame	stralg/edit_distance_generator.c	/^struct edit_iter_frame {$/;"	s	file:
+edit_op	stralg/edit_distance_generator.c	/^enum edit_op {$/;"	g	file:
+edit_pattern	stralg/edit_distance_generator.h	/^struct edit_pattern {$/;"	s
+edits	stralg/edit_distance_generator.h	/^    char *edits;$/;"	m	struct:edit_iter
+edits	stralg/suffix_tree.c	/^    char *edits;$/;"	m	struct:collect_nodes_data	file:
+edits_buf	stralg/bwt.h	/^    char *edits_buf;$/;"	m	struct:bwt_approx_iter
+edits_start	stralg/suffix_tree.c	/^    char *edits_start;$/;"	m	struct:collect_nodes_data	file:
+edits_to_cigar	stralg/cigar.c	/^void edits_to_cigar($/;"	f
+end	stralg/edge_array_suffix_tree.h	/^    const uint8_t *end;$/;"	m	struct:ea_st_approx_frame
+enqueue	stralg/queues.h	21;"	d
+enqueue_index	stralg/queues.h	/^static inline void enqueue_index($/;"	f
+enqueue_pointer	stralg/queues.h	/^static inline void enqueue_pointer($/;"	f
+enqueue_siblings	stralg/trie.c	/^static void enqueue_siblings($/;"	f	file:
+equal3	stralg/skew.c	/^inline static bool equal3($/;"	f	file:
+equal_LMS	stralg/sa_is.c	/^static bool equal_LMS($/;"	f	file:
+equal_LMS	stralg/sa_is_mem.c	/^static bool equal_LMS($/;"	f	file:
+equivalent_bwt_tables	stralg/bwt.c	/^bool equivalent_bwt_tables($/;"	f
+error_codes	stralg/error.h	/^enum error_codes {$/;"	g
+failure_link	stralg/trie.h	/^    struct trie *failure_link;$/;"	m	struct:trie	typeref:struct:trie::trie
+fast_scan	stralg/edge_array_suffix_tree.c	/^fast_scan($/;"	f	file:
+fast_scan	stralg/suffix_tree.c	/^fast_scan($/;"	f	file:
+find_buckets_beginnings	stralg/sa_is.c	/^static void find_buckets_beginnings($/;"	f	file:
+find_buckets_beginnings	stralg/sa_is_mem.c	/^static void find_buckets_beginnings($/;"	f	file:
+find_buckets_ends	stralg/sa_is.c	/^static void find_buckets_ends($/;"	f	file:
+find_buckets_ends	stralg/sa_is_mem.c	/^static void find_buckets_ends($/;"	f	file:
+find_outgoing_edge	stralg/edge_array_suffix_tree.c	/^find_outgoing_edge($/;"	f	file:
+find_outgoing_edge	stralg/suffix_tree.c	/^find_outgoing_edge($/;"	f	file:
+find_rightmost	stralg/match.c	/^static int32_t find_rightmost($/;"	f	file:
+frames	stralg/edit_distance_generator.h	/^    struct edit_iter_frame *frames;$/;"	m	struct:edit_iter	typeref:struct:edit_iter::edit_iter_frame
+free_bwt_table	stralg/bwt.c	/^void free_bwt_table($/;"	f
+free_complete_suffix_array	stralg/suffix_array.c	/^void free_complete_suffix_array(struct suffix_array *sa)$/;"	f
+free_ea_suffix_tree	stralg/edge_array_suffix_tree.c	/^void free_ea_suffix_tree($/;"	f
+free_index_list	stralg/lists.c	/^void free_index_list($/;"	f
+free_index_queue	stralg/queues.h	/^static inline void free_index_queue($/;"	f
+free_index_vector	stralg/vectors.h	/^static inline void free_index_vector($/;"	f
+free_pointer_list	stralg/lists.c	/^void free_pointer_list($/;"	f
+free_pointer_queue	stralg/queues.h	/^static inline void free_pointer_queue($/;"	f
+free_pointer_vector	stralg/vectors.h	/^static inline void free_pointer_vector($/;"	f
+free_queue	stralg/queues.h	45;"	d
+free_remap_table	stralg/remap.c	/^void free_remap_table($/;"	f
+free_string_vector	stralg/vectors.h	/^static inline void free_string_vector($/;"	f
+free_strings	stralg/bwt.c	/^static void free_strings($/;"	f	file:
+free_suffix_array	stralg/suffix_array.c	/^void free_suffix_array(struct suffix_array *sa)$/;"	f
+free_suffix_tree	stralg/suffix_tree.c	/^void free_suffix_tree($/;"	f
+free_trie	stralg/trie.c	/^void free_trie($/;"	f
+from	stralg/suffix_tree.h	/^    const uint8_t *from;$/;"	m	struct:range
+front	stralg/queues.h	/^    struct index_linked_list *front;$/;"	m	struct:index_queue	typeref:struct:index_queue::index_linked_list
+front	stralg/queues.h	/^    struct pointer_linked_list *front;$/;"	m	struct:pointer_queue	typeref:struct:pointer_queue::pointer_linked_list
+full_cigar_buf	stralg/edge_array_suffix_tree.h	/^    char *full_cigar_buf;$/;"	m	struct:internal_ea_st_approx_iter
+get_ea_edge_label	stralg/edge_array_suffix_tree.c	/^void get_ea_edge_label($/;"	f
+get_ea_path_string	stralg/edge_array_suffix_tree.c	/^void get_ea_path_string($/;"	f
+get_ea_string_depth	stralg/edge_array_suffix_tree.c	/^uint32_t get_ea_string_depth(struct ea_suffix_tree *st,$/;"	f
+get_edge_label	stralg/suffix_tree.c	/^void get_edge_label($/;"	f
+get_path_string	stralg/suffix_tree.c	/^void get_path_string($/;"	f
+get_string_depth	stralg/suffix_tree.c	/^uint32_t get_string_depth(struct suffix_tree *st, struct suffix_tree_node *v)$/;"	f
+get_trie_node	stralg/trie.c	/^struct trie *get_trie_node($/;"	f
+half_pos	stralg/sa_is_mem.c	308;"	d	file:
+has_inner	stralg/edge_array_suffix_tree.h	/^    bool has_inner;$/;"	m	struct:ea_st_approx_match_iter
+helper_buffer0	stralg/skew.c	/^    uint32_t *helper_buffer0;      \/\/ 2\/3n +$/;"	m	struct:skew_buffers	file:
+helper_buffer1	stralg/skew.c	/^    uint32_t *helper_buffer1;      \/\/ 2\/3n = 4\/3 n$/;"	m	struct:skew_buffers	file:
+hits	stralg/aho_corasick.h	/^    struct output_list *hits;$/;"	m	struct:ac_iter	typeref:struct:ac_iter::output_list
+i	stralg/bwt.h	/^    int64_t i;$/;"	m	struct:bwt_exact_match_iter
+i	stralg/match.h	/^    uint32_t i; uint32_t b;$/;"	m	struct:border_match_iter
+i	stralg/match.h	/^    uint32_t j, i;$/;"	m	struct:kmp_match_iter
+i	stralg/suffix_array.h	/^    uint32_t i;$/;"	m	struct:sa_match_iter
+identical_remap_tables	stralg/remap.c	/^bool identical_remap_tables($/;"	f
+identical_suffix_arrays	stralg/suffix_array.c	/^bool identical_suffix_arrays(const struct suffix_array *sa1,$/;"	f
+in_edge_label	stralg/trie.h	/^    uint8_t in_edge_label;$/;"	m	struct:trie
+index	stralg/aho_corasick.h	/^    uint32_t index;$/;"	m	struct:ac_match
+index_cmpfunc	stralg/vectors.c	/^static int index_cmpfunc($/;"	f	file:
+index_linked_list	stralg/lists.h	/^struct index_linked_list {$/;"	s
+index_queue	stralg/queues.h	/^struct index_queue {$/;"	s
+index_queue_front	stralg/queues.h	/^index_queue_front($/;"	f
+index_queue_length	stralg/queues.h	/^index_queue_length($/;"	f
+index_vector	stralg/vectors.h	/^struct index_vector {$/;"	s
+index_vector_append	stralg/vectors.h	/^static inline void index_vector_append($/;"	f
+index_vector_equal	stralg/vectors.c	/^bool index_vector_equal($/;"	f
+index_vector_get	stralg/vectors.h	/^index_vector_get($/;"	f
+index_vector_set	stralg/vectors.h	/^index_vector_set($/;"	f
+induce_L	stralg/sa_is.c	/^static void induce_L($/;"	f	file:
+induce_L	stralg/sa_is_mem.c	/^static void induce_L($/;"	f	file:
+induce_S	stralg/sa_is.c	/^static void induce_S($/;"	f	file:
+induce_S	stralg/sa_is_mem.c	/^static void induce_S($/;"	f	file:
+init_ac_iter	stralg/aho_corasick.c	/^void init_ac_iter($/;"	f
+init_bm_match_iter	stralg/match.c	/^void init_bm_match_iter($/;"	f
+init_bmh_match_iter	stralg/match.c	/^void init_bmh_match_iter($/;"	f
+init_border_match_iter	stralg/match.c	/^void init_border_match_iter($/;"	f
+init_bwt_approx_iter	stralg/bwt.c	/^void init_bwt_approx_iter($/;"	f
+init_bwt_exact_match_iter	stralg/bwt.c	/^void init_bwt_exact_match_iter($/;"	f
+init_bwt_table	stralg/bwt.c	/^void init_bwt_table($/;"	f
+init_ea_st_approx_iter	stralg/edge_array_suffix_tree.c	/^void init_ea_st_approx_iter($/;"	f
+init_ea_st_leaf_iter	stralg/edge_array_suffix_tree.c	/^void init_ea_st_leaf_iter($/;"	f
+init_ea_st_search_iter	stralg/edge_array_suffix_tree.c	/^void init_ea_st_search_iter($/;"	f
+init_edit_iter	stralg/edit_distance_generator.c	/^void init_edit_iter($/;"	f
+init_index_queue	stralg/queues.h	/^static inline void init_index_queue($/;"	f
+init_index_vector	stralg/vectors.h	/^static inline void init_index_vector($/;"	f
+init_internal_ea_st_approx_iter	stralg/edge_array_suffix_tree.c	/^void init_internal_ea_st_approx_iter($/;"	f
+init_kmp_match_iter	stralg/match.c	/^void init_kmp_match_iter($/;"	f
+init_naive_match_iter	stralg/match.c	/^void init_naive_match_iter($/;"	f
+init_pointer_queue	stralg/queues.h	/^static inline void init_pointer_queue($/;"	f
+init_pointer_vector	stralg/vectors.h	/^static inline void init_pointer_vector($/;"	f
+init_queue	stralg/queues.h	10;"	d
+init_remap_table	stralg/remap.c	/^void init_remap_table($/;"	f
+init_sa_match_iter	stralg/suffix_array.c	/^void init_sa_match_iter($/;"	f
+init_st_approx_iter	stralg/suffix_tree.c	/^void init_st_approx_iter($/;"	f
+init_st_leaf_iter	stralg/suffix_tree.c	/^void init_st_leaf_iter($/;"	f
+init_st_search_iter	stralg/suffix_tree.c	/^void init_st_search_iter($/;"	f
+init_string_vector	stralg/vectors.h	/^static inline void init_string_vector($/;"	f
+init_trie	stralg/trie.c	/^void init_trie($/;"	f
+insert_child	stralg/edge_array_suffix_tree.c	/^inline static void insert_child($/;"	f	file:
+insert_child	stralg/suffix_tree.c	/^static void insert_child($/;"	f	file:
+intarray_rev_n	stralg/borders.c	/^static void intarray_rev_n(uint32_t *x, uint32_t n)$/;"	f	file:
+internal_ea_st_approx_iter	stralg/edge_array_suffix_tree.h	/^struct internal_ea_st_approx_iter {$/;"	s
+internal_ea_st_approx_match	stralg/edge_array_suffix_tree.h	/^struct internal_ea_st_approx_match {$/;"	s
+inverse	stralg/suffix_array.h	/^    uint32_t *inverse;$/;"	m	struct:suffix_array
+is_LMS_index	stralg/sa_is.c	/^static bool is_LMS_index($/;"	f	file:
+is_LMS_index	stralg/sa_is_mem.c	/^static bool is_LMS_index($/;"	f	file:
+is_index_queue_empty	stralg/queues.h	/^static inline bool is_index_queue_empty($/;"	f
+is_inner_node	stralg/edge_array_suffix_tree.c	/^is_inner_node(struct ea_suffix_tree_node *n) {$/;"	f	file:
+is_inner_node	stralg/suffix_tree.c	/^is_inner_node(struct suffix_tree_node *n) {$/;"	f	file:
+is_leaf	stralg/edge_array_suffix_tree.c	/^is_leaf(struct ea_suffix_tree_node *n) {$/;"	f	file:
+is_leaf	stralg/suffix_tree.c	/^is_leaf(struct suffix_tree_node *n) {$/;"	f	file:
+is_pointer_queue_empty	stralg/queues.h	/^static inline bool is_pointer_queue_empty($/;"	f
+is_queue_empty	stralg/queues.h	50;"	d
+is_trie_root	stralg/trie.h	/^static inline bool is_trie_root($/;"	f
+iter	stralg/suffix_tree.c	/^    struct st_approx_match_iter *iter;$/;"	m	struct:collect_nodes_data	typeref:struct:collect_nodes_data::st_approx_match_iter	file:
+j	stralg/aho_corasick.h	/^    uint32_t j;$/;"	m	struct:ac_iter
+j	stralg/match.h	/^    uint32_t j, i;$/;"	m	struct:kmp_match_iter
+j	stralg/match.h	/^    uint32_t j;$/;"	m	struct:bm_match_iter
+j	stralg/match.h	/^    uint32_t j;$/;"	m	struct:bmh_match_iter
+jump	stralg/match.h	/^    uint32_t *jump;$/;"	m	struct:bm_match_iter
+kmp_match_iter	stralg/match.h	/^struct kmp_match_iter {$/;"	s
+lcp	stralg/suffix_array.h	/^    uint32_t *lcp;$/;"	m	struct:suffix_array
+lcp_ea_suffix_tree	stralg/edge_array_suffix_tree.c	/^lcp_ea_suffix_tree($/;"	f
+lcp_insert	stralg/edge_array_suffix_tree.c	/^lcp_insert($/;"	f	file:
+lcp_insert	stralg/suffix_tree.c	/^lcp_insert($/;"	f	file:
+lcp_stack_push_reverse	stralg/suffix_tree.c	/^lcp_stack_push_reverse($/;"	f	file:
+lcp_suffix_tree	stralg/suffix_tree.c	/^lcp_suffix_tree($/;"	f
+lcp_traverse	stralg/edge_array_suffix_tree.c	/^static void lcp_traverse($/;"	f	file:
+lcp_traverse	stralg/suffix_tree.c	/^static void lcp_traverse($/;"	f	file:
+leading	stralg/edge_array_suffix_tree.h	/^    bool leading; \/\/ for avoiding leading deletions$/;"	m	struct:ea_st_approx_frame
+leaf	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node *leaf;$/;"	m	struct:ea_st_leaf_iter_result	typeref:struct:ea_st_leaf_iter_result::ea_suffix_tree_node
+leaf	stralg/suffix_tree.h	/^    struct suffix_tree_node *leaf;$/;"	m	struct:st_leaf_iter_result	typeref:struct:st_leaf_iter_result::suffix_tree_node
+leaf_iter	stralg/edge_array_suffix_tree.h	/^    struct ea_st_leaf_iter *leaf_iter;$/;"	m	struct:ea_st_approx_match_iter	typeref:struct:ea_st_approx_match_iter::ea_st_leaf_iter
+leaf_iter	stralg/edge_array_suffix_tree.h	/^    struct ea_st_leaf_iter leaf_iter;$/;"	m	struct:ea_st_search_iter	typeref:struct:ea_st_search_iter::ea_st_leaf_iter
+leaf_iter	stralg/suffix_tree.h	/^    struct st_leaf_iter leaf_iter;$/;"	m	struct:st_approx_match_iter	typeref:struct:st_approx_match_iter::st_leaf_iter
+leaf_iter	stralg/suffix_tree.h	/^    struct st_leaf_iter leaf_iter;$/;"	m	struct:st_search_iter	typeref:struct:st_search_iter::st_leaf_iter
+leaf_label	stralg/edge_array_suffix_tree.h	/^    uint32_t leaf_label;$/;"	m	struct:ea_suffix_tree_node
+leaf_label	stralg/suffix_tree.h	/^    uint32_t leaf_label;$/;"	m	struct:suffix_tree_node
+left_depth	stralg/edge_array_suffix_tree.c	/^    uint32_t left_depth;$/;"	m	struct:sa_lcp_frame	file:
+left_depth	stralg/suffix_tree.c	/^    uint32_t left_depth;$/;"	m	struct:sa_lcp_frame	file:
+length	stralg/edge_array_suffix_tree.h	/^    uint32_t length;$/;"	m	struct:ea_suffix_tree
+length	stralg/suffix_array.h	/^    uint32_t length;$/;"	m	struct:suffix_array
+length	stralg/suffix_tree.h	/^    uint32_t length;$/;"	m	struct:suffix_tree
+less	stralg/skew.c	/^inline static bool less($/;"	f	file:
+lex_remapped	stralg/skew.c	/^    uint32_t *lex_remapped;          \/\/ alias for helper 0$/;"	m	struct:skew_buffers	file:
+load_file	stralg/io.c	/^uint8_t *load_file(const char *fname)$/;"	f
+lower_bound_k	stralg/suffix_array.c	/^uint32_t lower_bound_k($/;"	f
+lower_bound_search	stralg/suffix_array.c	/^uint32_t lower_bound_search($/;"	f
+m	stralg/bwt.h	/^    uint32_t m;$/;"	m	struct:bwt_approx_iter
+m	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:bm_match_iter
+m	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:bmh_match_iter
+m	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:border_match_iter
+m	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:kmp_match_iter
+m	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:naive_match_iter
+map_s_s12	stralg/skew.c	/^inline static uint32_t map_s_s12(uint32_t k) {$/;"	f	file:
+map_u_s	stralg/skew.c	/^inline static uint32_t map_u_s(uint32_t i, uint32_t m)$/;"	f	file:
+mask	stralg/sa_is_mem.c	/^static uint8_t mask[] = {$/;"	v	file:
+match	stralg/borders.c	/^static uint32_t match($/;"	f	file:
+match	stralg/match.h	/^struct match {$/;"	s
+match_depth	stralg/edge_array_suffix_tree.h	/^    uint32_t match_depth;$/;"	m	struct:ea_st_approx_frame
+match_depth	stralg/edge_array_suffix_tree.h	/^    uint32_t match_depth;$/;"	m	struct:ea_st_approx_match
+match_depth	stralg/edge_array_suffix_tree.h	/^    uint32_t match_depth;$/;"	m	struct:internal_ea_st_approx_match
+match_depth	stralg/suffix_tree.h	/^    uint32_t match_depth;$/;"	m	struct:st_approx_match
+match_depths	stralg/suffix_tree.h	/^    struct index_vector match_depths;$/;"	m	struct:st_approx_match_iter	typeref:struct:st_approx_match_iter::index_vector
+match_info	stralg/edit_distance_generator.c	/^struct match_info {$/;"	s	file:
+match_label	stralg/edge_array_suffix_tree.h	/^    uint32_t match_label;$/;"	m	struct:ea_st_approx_match
+match_label	stralg/suffix_tree.h	/^    uint32_t match_label;$/;"	m	struct:st_approx_match
+match_length	stralg/bwt.h	/^    uint32_t match_length;$/;"	m	struct:bwt_approx_match
+match_length	stralg/edge_array_suffix_tree.h	/^    uint32_t match_length;$/;"	m	struct:ea_st_approx_match
+match_length	stralg/suffix_tree.h	/^    uint32_t match_length;$/;"	m	struct:st_approx_match
+match_lengths	stralg/bwt.h	/^    struct index_vector  match_lengths;$/;"	m	struct:bwt_approx_iter	typeref:struct:bwt_approx_iter::index_vector
+match_root	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node *match_root;$/;"	m	struct:internal_ea_st_approx_match	typeref:struct:internal_ea_st_approx_match::ea_suffix_tree_node
+max_dist	stralg/edit_distance_generator.c	/^    int max_dist;$/;"	m	struct:edit_iter_frame	file:
+mccreight_ea_suffix_tree	stralg/edge_array_suffix_tree.c	/^mccreight_ea_suffix_tree($/;"	f
+mccreight_suffix_tree	stralg/suffix_tree.c	/^mccreight_suffix_tree($/;"	f
+merge_suffix_arrays	stralg/skew.c	/^static void merge_suffix_arrays($/;"	f	file:
+n	stralg/aho_corasick.h	/^    uint32_t n;$/;"	m	struct:ac_iter
+n	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:bm_match_iter
+n	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:bmh_match_iter
+n	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:border_match_iter
+n	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:kmp_match_iter
+n	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:naive_match_iter
+naive_ea_suffix_tree	stralg/edge_array_suffix_tree.c	/^struct ea_suffix_tree *naive_ea_suffix_tree($/;"	f
+naive_insert	stralg/edge_array_suffix_tree.c	/^naive_insert($/;"	f	file:
+naive_insert	stralg/suffix_tree.c	/^naive_insert($/;"	f	file:
+naive_match_iter	stralg/match.h	/^struct naive_match_iter {$/;"	s
+naive_suffix_tree	stralg/suffix_tree.c	/^struct suffix_tree *naive_suffix_tree($/;"	f
+nested	stralg/aho_corasick.h	/^    bool nested;$/;"	m	struct:ac_iter
+new_frame	stralg/edge_array_suffix_tree.c	/^new_frame(struct ea_suffix_tree_node *node)$/;"	f	file:
+new_frame	stralg/suffix_tree.c	/^new_frame(struct suffix_tree_node *node)$/;"	f	file:
+new_index_link	stralg/lists.h	/^new_index_link($/;"	f
+new_lcp_frame	stralg/edge_array_suffix_tree.c	/^static struct sa_lcp_frame *new_lcp_frame($/;"	f	file:
+new_lcp_frame	stralg/suffix_tree.c	/^static struct sa_lcp_frame *new_lcp_frame($/;"	f	file:
+new_node	stralg/edge_array_suffix_tree.c	/^new_node($/;"	f	file:
+new_node	stralg/suffix_tree.c	/^new_node($/;"	f	file:
+new_output_link	stralg/trie.c	/^new_output_link($/;"	f	file:
+new_pointer_link	stralg/lists.h	/^new_pointer_link($/;"	f
+next	stralg/edge_array_suffix_tree.c	/^    struct ea_st_leaf_iter_frame *next;$/;"	m	struct:ea_st_leaf_iter_frame	typeref:struct:ea_st_leaf_iter_frame::ea_st_leaf_iter_frame	file:
+next	stralg/edge_array_suffix_tree.c	/^    struct sa_lcp_frame *next;$/;"	m	struct:sa_lcp_frame	typeref:struct:sa_lcp_frame::sa_lcp_frame	file:
+next	stralg/edge_array_suffix_tree.h	/^    struct ea_st_approx_frame *next;$/;"	m	struct:ea_st_approx_frame	typeref:struct:ea_st_approx_frame::ea_st_approx_frame
+next	stralg/edit_distance_generator.c	/^    struct edit_iter_frame *next;$/;"	m	struct:edit_iter_frame	typeref:struct:edit_iter_frame::edit_iter_frame	file:
+next	stralg/lists.h	/^    struct index_linked_list *next;$/;"	m	struct:index_linked_list	typeref:struct:index_linked_list::index_linked_list
+next	stralg/lists.h	/^    struct pointer_linked_list *next;$/;"	m	struct:pointer_linked_list	typeref:struct:pointer_linked_list::pointer_linked_list
+next	stralg/suffix_tree.c	/^    struct sa_lcp_frame *next;$/;"	m	struct:sa_lcp_frame	typeref:struct:sa_lcp_frame::sa_lcp_frame	file:
+next	stralg/suffix_tree.c	/^    struct st_leaf_iter_frame *next;$/;"	m	struct:st_leaf_iter_frame	typeref:struct:st_leaf_iter_frame::st_leaf_iter_frame	file:
+next	stralg/trie.h	/^    struct output_list *next;$/;"	m	struct:output_list	typeref:struct:output_list::output_list
+next_ac_match	stralg/aho_corasick.c	/^bool next_ac_match($/;"	f
+next_array	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node **next_array;$/;"	m	struct:ea_suffix_tree_children_pool	typeref:struct:ea_suffix_tree_children_pool::ea_suffix_tree_node
+next_bm_match	stralg/match.c	/^bool next_bm_match($/;"	f
+next_bmh_match	stralg/match.c	/^bool next_bmh_match($/;"	f
+next_border_match	stralg/match.c	/^bool next_border_match($/;"	f
+next_bwt_approx_match	stralg/bwt.c	/^bool next_bwt_approx_match($/;"	f
+next_bwt_exact_match_iter	stralg/bwt.c	/^bool next_bwt_exact_match_iter($/;"	f
+next_ea_st_approx_match	stralg/edge_array_suffix_tree.c	/^bool next_ea_st_approx_match(struct ea_st_approx_match_iter *iter,$/;"	f
+next_ea_st_leaf	stralg/edge_array_suffix_tree.c	/^bool next_ea_st_leaf($/;"	f
+next_ea_st_match	stralg/edge_array_suffix_tree.c	/^bool next_ea_st_match($/;"	f
+next_edit_pattern	stralg/edit_distance_generator.c	/^bool next_edit_pattern($/;"	f
+next_internal_ea_st_approx_match	stralg/edge_array_suffix_tree.c	/^bool next_internal_ea_st_approx_match($/;"	f
+next_interval	stralg/bwt.h	/^    uint32_t L, R, next_interval;$/;"	m	struct:bwt_approx_iter
+next_kmp_match	stralg/match.c	/^bool next_kmp_match($/;"	f
+next_naive_match	stralg/match.c	/^bool next_naive_match($/;"	f
+next_node	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node *next_node;$/;"	m	struct:ea_suffix_tree_node_pool	typeref:struct:ea_suffix_tree_node_pool::ea_suffix_tree_node
+next_node	stralg/suffix_tree.h	/^    struct suffix_tree_node *next_node;$/;"	m	struct:suffix_tree_node_pool	typeref:struct:suffix_tree_node_pool::suffix_tree_node
+next_sa_match	stralg/suffix_array.c	/^bool next_sa_match(struct sa_match_iter *iter,$/;"	f
+next_st_approx_match	stralg/suffix_tree.c	/^bool next_st_approx_match(struct st_approx_match_iter *iter,$/;"	f
+next_st_leaf	stralg/suffix_tree.c	/^bool next_st_leaf($/;"	f
+next_st_match	stralg/suffix_tree.c	/^bool next_st_match($/;"	f
+node	stralg/edge_array_suffix_tree.c	/^    struct ea_suffix_tree_node *node;$/;"	m	struct:ea_st_leaf_iter_frame	typeref:struct:ea_st_leaf_iter_frame::ea_suffix_tree_node	file:
+node	stralg/suffix_tree.c	/^    struct suffix_tree_node *node;$/;"	m	struct:st_leaf_iter_frame	typeref:struct:st_leaf_iter_frame::suffix_tree_node	file:
+node_depth	stralg/edge_array_suffix_tree.c	/^    uint32_t node_depth;$/;"	m	struct:sa_lcp_frame	file:
+node_depth	stralg/suffix_tree.c	/^    uint32_t node_depth;$/;"	m	struct:sa_lcp_frame	file:
+node_pool	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node_pool node_pool;$/;"	m	struct:ea_suffix_tree	typeref:struct:ea_suffix_tree::ea_suffix_tree_node_pool
+nodes	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node *nodes;$/;"	m	struct:ea_suffix_tree_node_pool	typeref:struct:ea_suffix_tree_node_pool::ea_suffix_tree_node
+nodes	stralg/suffix_tree.h	/^    struct pointer_vector nodes;$/;"	m	struct:st_approx_match_iter	typeref:struct:st_approx_match_iter::pointer_vector
+nodes	stralg/suffix_tree.h	/^    struct suffix_tree_node *nodes;$/;"	m	struct:suffix_tree_node_pool	typeref:struct:suffix_tree_node_pool::suffix_tree_node
+o_indices	stralg/bwt.h	/^    uint32_t **o_indices;$/;"	m	struct:bwt_table
+o_table	stralg/bwt.h	/^    uint32_t *o_table;$/;"	m	struct:bwt_table
+op	stralg/edit_distance_generator.c	/^    enum edit_op op;$/;"	m	struct:edit_iter_frame	typeref:enum:edit_iter_frame::edit_op	file:
+out_letter	stralg/suffix_tree.c	/^inline static char out_letter(struct suffix_tree_node *v)$/;"	f	file:
+out_link	stralg/trie.c	/^struct trie *out_link($/;"	f
+outer	stralg/edge_array_suffix_tree.h	/^    bool outer;$/;"	m	struct:ea_st_approx_match_iter
+output	stralg/trie.h	/^    struct output_list *output;$/;"	m	struct:trie	typeref:struct:trie::output_list
+output_list	stralg/trie.h	/^struct output_list {$/;"	s
+p	stralg/edge_array_suffix_tree.h	/^    const uint8_t *p;$/;"	m	struct:ea_st_approx_frame
+p	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:bm_match_iter
+p	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:bmh_match_iter
+p	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:border_match_iter
+p	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:kmp_match_iter
+p	stralg/match.h	/^    const uint8_t *p; uint32_t m;$/;"	m	struct:naive_match_iter
+parent	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node *parent;$/;"	m	struct:ea_suffix_tree_node	typeref:struct:ea_suffix_tree_node::ea_suffix_tree_node
+parent	stralg/suffix_tree.h	/^    struct suffix_tree_node *parent;$/;"	m	struct:suffix_tree_node	typeref:struct:suffix_tree_node::suffix_tree_node
+parent	stralg/trie.h	/^    struct trie *parent;$/;"	m	struct:trie	typeref:struct:trie::trie
+pattern	stralg/edit_distance_generator.h	/^    const uint8_t *pattern;$/;"	m	struct:edit_iter
+pattern	stralg/edit_distance_generator.h	/^    const uint8_t *pattern;$/;"	m	struct:edit_pattern
+pattern_front	stralg/edit_distance_generator.c	/^    const uint8_t *pattern_front;$/;"	m	struct:edit_iter_frame	file:
+pattern_lengths	stralg/aho_corasick.h	/^    const uint32_t *pattern_lengths;$/;"	m	struct:ac_iter
+patterns_trie	stralg/aho_corasick.h	/^    struct trie *patterns_trie;$/;"	m	struct:ac_iter	typeref:struct:ac_iter::trie
+place_LMS	stralg/sa_is.c	/^void place_LMS($/;"	f
+place_LMS	stralg/sa_is_mem.c	/^void place_LMS($/;"	f
+pointer_linked_list	stralg/lists.h	/^struct pointer_linked_list {$/;"	s
+pointer_queue	stralg/queues.h	/^struct pointer_queue {$/;"	s
+pointer_queue_front	stralg/queues.h	/^static inline void *pointer_queue_front($/;"	f
+pointer_queue_length	stralg/queues.h	/^static inline uint32_t pointer_queue_length($/;"	f
+pointer_vector	stralg/vectors.h	/^struct pointer_vector {$/;"	s
+pointer_vector_append	stralg/vectors.h	/^static inline void pointer_vector_append($/;"	f
+pointer_vector_get	stralg/vectors.h	/^static inline void *pointer_vector_get($/;"	f
+pointer_vector_set	stralg/vectors.h	/^static inline void pointer_vector_set($/;"	f
+pool	stralg/suffix_tree.h	/^    struct suffix_tree_node_pool pool;$/;"	m	struct:suffix_tree	typeref:struct:suffix_tree::suffix_tree_node_pool
+pop_frame	stralg/edge_array_suffix_tree.c	/^static void pop_frame($/;"	f	file:
+pos	stralg/bwt.h	/^    uint32_t pos;$/;"	m	struct:bwt_exact_match
+pos	stralg/edge_array_suffix_tree.h	/^    uint32_t pos;$/;"	m	struct:ea_st_search_match
+pos	stralg/match.h	/^    uint32_t pos;$/;"	m	struct:match
+pos	stralg/suffix_tree.h	/^    uint32_t pos;$/;"	m	struct:st_search_match
+position	stralg/bwt.h	/^    uint32_t position;$/;"	m	struct:bwt_approx_match
+position	stralg/suffix_array.h	/^    uint32_t position;$/;"	m	struct:sa_match
+print_bwt_table	stralg/bwt.c	/^void print_bwt_table($/;"	f
+print_c_table	stralg/bwt.c	/^void print_c_table($/;"	f
+print_index_vector	stralg/vectors.c	/^void print_index_vector($/;"	f
+print_o_table	stralg/bwt.c	/^void print_o_table($/;"	f
+print_out_edges	stralg/edge_array_suffix_tree.c	/^static void print_out_edges($/;"	f	file:
+print_out_edges	stralg/suffix_tree.c	/^static void print_out_edges($/;"	f	file:
+print_out_edges	stralg/trie.c	/^static void print_out_edges($/;"	f	file:
+print_remap_table	stralg/remap.c	/^void print_remap_table($/;"	f
+print_ro_table	stralg/bwt.c	/^void print_ro_table($/;"	f
+print_string_vector	stralg/vectors.c	/^void print_string_vector($/;"	f
+print_suffix_array	stralg/suffix_array.c	/^void print_suffix_array(struct suffix_array *sa, bool print_inverse)$/;"	f
+processing_tree	stralg/suffix_tree.h	/^    bool processing_tree;$/;"	m	struct:st_approx_match_iter
+push_children	stralg/edge_array_suffix_tree.c	/^static void push_children($/;"	f	file:
+push_edit_iter_frame	stralg/edit_distance_generator.c	/^push_edit_iter_frame($/;"	f	file:
+push_frame	stralg/edge_array_suffix_tree.c	/^static void push_frame($/;"	f	file:
+qsort_sa_construction	stralg/suffix_array.c	/^struct suffix_array *qsort_sa_construction(uint8_t *string)$/;"	f
+queue_length	stralg/queues.h	53;"	d
+radix_accsum	stralg/skew.c	/^    uint32_t radix_accsum[256];$/;"	m	struct:skew_buffers	file:
+radix_buckets	stralg/skew.c	/^    uint32_t radix_buckets[256];$/;"	m	struct:skew_buffers	file:
+radix_sort	stralg/skew.c	/^static void radix_sort($/;"	f	file:
+radix_sort_3	stralg/skew.c	/^radix_sort_3($/;"	f	file:
+range	stralg/edge_array_suffix_tree.h	/^    struct range range;$/;"	m	struct:ea_suffix_tree_node	typeref:struct:ea_suffix_tree_node::range
+range	stralg/suffix_tree.h	/^    struct range range;$/;"	m	struct:suffix_tree_node	typeref:struct:suffix_tree_node::range
+range	stralg/suffix_tree.h	/^struct range {$/;"	s
+range_length	stralg/suffix_tree.h	/^static inline uint32_t range_length(struct range r) {$/;"	f
+read_bwt_table	stralg/bwt.c	/^struct bwt_table *read_bwt_table($/;"	f
+read_bwt_table_fname	stralg/bwt.c	/^read_bwt_table_fname($/;"	f
+read_complete_bwt_info	stralg/serialise.c	/^read_complete_bwt_info($/;"	f
+read_complete_bwt_info_fname	stralg/serialise.c	/^read_complete_bwt_info_fname($/;"	f
+read_remap_table	stralg/remap.c	/^read_remap_table($/;"	f
+read_remap_table_fname	stralg/remap.c	/^read_remap_table_fname($/;"	f
+read_string	stralg/string_utils.c	/^uint8_t *read_string(FILE *f)$/;"	f
+read_string_fname	stralg/string_utils.c	/^uint8_t *read_string_fname(const char *fname)$/;"	f
+read_string_len	stralg/string_utils.c	/^uint8_t *read_string_len(FILE *f, uint32_t *len)$/;"	f
+read_string_len_fname	stralg/string_utils.c	/^uint8_t *read_string_len_fname(const char *fname, uint32_t *len)$/;"	f
+read_suffix_array	stralg/suffix_array.c	/^struct suffix_array *read_suffix_array($/;"	f
+read_suffix_array_fname	stralg/suffix_array.c	/^read_suffix_array_fname($/;"	f
+rec_approx_matching	stralg/bwt.c	/^static void rec_approx_matching($/;"	f	file:
+recurse_children	stralg/suffix_tree.c	/^static void recurse_children($/;"	f	file:
+recursive_generator	stralg/edit_distance_generator.c	/^void recursive_generator($/;"	f
+recursive_sorting	stralg/sa_is.c	/^static void recursive_sorting($/;"	f	file:
+recursive_sorting	stralg/sa_is_mem.c	/^static void recursive_sorting($/;"	f	file:
+reduce_SA	stralg/sa_is.c	/^static void reduce_SA($/;"	f	file:
+reduce_SA	stralg/sa_is_mem.c	/^static void reduce_SA($/;"	f	file:
+remap	stralg/remap.c	/^uint8_t *remap($/;"	f
+remap_LMS	stralg/sa_is.c	/^static void remap_LMS($/;"	f	file:
+remap_LMS	stralg/sa_is_mem.c	/^void remap_LMS($/;"	f
+remap_between	stralg/remap.c	/^uint8_t *remap_between($/;"	f
+remap_between0	stralg/remap.c	/^uint8_t *remap_between0($/;"	f
+remap_lex3	stralg/skew.c	/^static int32_t remap_lex3($/;"	f	file:
+remap_string	stralg/remap.c	/^uint32_t remap_string($/;"	f
+remap_table	stralg/bwt.h	/^    struct remap_table  *remap_table;$/;"	m	struct:bwt_table	typeref:struct:bwt_table::remap_table
+remap_table	stralg/remap.h	/^struct remap_table {$/;"	s
+remapped_cigar_alignment	stralg/cigar.c	/^uint8_t *remapped_cigar_alignment($/;"	f
+remapped_pattern	stralg/bwt.h	/^    const uint8_t *remapped_pattern;$/;"	m	struct:bwt_approx_iter
+remove_child	stralg/edge_array_suffix_tree.c	/^inline static void remove_child($/;"	f	file:
+remove_child	stralg/suffix_tree.c	/^static void remove_child($/;"	f	file:
+report	stralg/edit_distance_generator.c	/^void report(uint8_t *x, char *y) {$/;"	f
+rev_remap	stralg/remap.c	/^uint8_t *rev_remap($/;"	f
+rev_remap_between	stralg/remap.c	/^uint8_t *rev_remap_between($/;"	f
+rev_remap_between0	stralg/remap.c	/^uint8_t *rev_remap_between0($/;"	f
+rev_table	stralg/remap.h	/^    signed char rev_table[128];$/;"	m	struct:remap_table
+reverse_push	stralg/suffix_tree.c	/^static void reverse_push($/;"	f	file:
+reverse_push_children	stralg/edge_array_suffix_tree.c	/^static void reverse_push_children($/;"	f	file:
+rightmost	stralg/match.h	/^    int32_t rightmost[256];$/;"	m	struct:bm_match_iter
+rightmost	stralg/match.h	/^    int32_t rightmost[256];$/;"	m	struct:bmh_match_iter
+rightmost_table	stralg/match.h	/^    struct index_linked_list *rightmost_table[256];$/;"	m	struct:bm_match_iter	typeref:struct:bm_match_iter::index_linked_list
+rightmost_table	stralg/match.h	/^    struct index_linked_list *rightmost_table[256];$/;"	m	struct:bmh_match_iter	typeref:struct:bmh_match_iter::index_linked_list
+ro_indices	stralg/bwt.h	/^    uint32_t **ro_indices;$/;"	m	struct:bwt_table
+ro_table	stralg/bwt.h	/^    uint32_t *ro_table;$/;"	m	struct:bwt_table
+root	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node *root;$/;"	m	struct:ea_st_approx_match	typeref:struct:ea_st_approx_match::ea_suffix_tree_node
+root	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node *root;$/;"	m	struct:ea_suffix_tree	typeref:struct:ea_suffix_tree::ea_suffix_tree_node
+root	stralg/suffix_tree.h	/^    struct suffix_tree_node *root;$/;"	m	struct:st_approx_match	typeref:struct:st_approx_match::suffix_tree_node
+root	stralg/suffix_tree.h	/^    struct suffix_tree_node *root;$/;"	m	struct:suffix_tree	typeref:struct:suffix_tree::suffix_tree_node
+sa	stralg/bwt.h	/^    const struct suffix_array *sa;$/;"	m	struct:bwt_exact_match_iter	typeref:struct:bwt_exact_match_iter::suffix_array
+sa	stralg/bwt.h	/^    struct suffix_array *sa;$/;"	m	struct:bwt_table	typeref:struct:bwt_table::suffix_array
+sa	stralg/suffix_array.h	/^    struct suffix_array *sa;$/;"	m	struct:sa_match_iter	typeref:struct:sa_match_iter::suffix_array
+sa12	stralg/skew.c	/^    uint32_t *sa12;                \/\/ 2\/3n +$/;"	m	struct:skew_buffers	file:
+sa3	stralg/skew.c	/^    uint32_t *sa3;                 \/\/ 1\/3n = n$/;"	m	struct:skew_buffers	file:
+sa_is_construction	stralg/sa_is.c	/^sa_is_construction($/;"	f
+sa_is_mem_construction	stralg/sa_is_mem.c	/^sa_is_mem_construction($/;"	f
+sa_lcp_frame	stralg/edge_array_suffix_tree.c	/^struct sa_lcp_frame {$/;"	s	file:
+sa_lcp_frame	stralg/suffix_tree.c	/^struct sa_lcp_frame {$/;"	s	file:
+sa_match	stralg/suffix_array.h	/^struct sa_match {$/;"	s
+sa_match_iter	stralg/suffix_array.h	/^struct sa_match_iter {$/;"	s
+sau	stralg/skew.c	/^    uint32_t *sau;                 \/\/ 3*(2\/3n+1)$/;"	m	struct:skew_buffers	file:
+scan	stralg/cigar.c	/^static const char *scan($/;"	f	file:
+sentinel	stralg/edge_array_suffix_tree.h	/^    struct ea_st_approx_frame sentinel;$/;"	m	struct:internal_ea_st_approx_iter	typeref:struct:internal_ea_st_approx_iter::ea_st_approx_frame
+set_suffix_links	stralg/edge_array_suffix_tree.c	/^static void set_suffix_links($/;"	f	file:
+set_suffix_links	stralg/suffix_tree.c	/^static void set_suffix_links($/;"	f	file:
+sget	stralg/sa_is_mem.c	21;"	d	file:
+sibling	stralg/suffix_tree.h	/^    struct suffix_tree_node *sibling;$/;"	m	struct:suffix_tree_node	typeref:struct:suffix_tree_node::suffix_tree_node
+sibling	stralg/trie.h	/^    struct trie *sibling;$/;"	m	struct:trie	typeref:struct:trie::trie
+size	stralg/vectors.h	/^    uint32_t size;$/;"	m	struct:index_vector
+size	stralg/vectors.h	/^    uint32_t size;$/;"	m	struct:pointer_vector
+size	stralg/vectors.h	/^    uint32_t size;$/;"	m	struct:string_vector
+skew	stralg/skew.c	/^static void skew($/;"	f	file:
+skew_buffers	stralg/skew.c	/^struct skew_buffers {$/;"	s	file:
+skew_rec	stralg/skew.c	/^static void skew_rec($/;"	f	file:
+skew_sa_construction	stralg/skew.c	/^skew_sa_construction($/;"	f
+sort_SA	stralg/sa_is.c	/^static void sort_SA($/;"	f	file:
+sort_SA	stralg/sa_is_mem.c	/^void sort_SA($/;"	f
+sort_index_vector	stralg/vectors.c	/^void sort_index_vector($/;"	f
+sort_string_vector	stralg/vectors.c	/^void sort_string_vector($/;"	f
+split_edge	stralg/edge_array_suffix_tree.c	/^split_edge($/;"	f	file:
+split_edge	stralg/suffix_tree.c	/^split_edge($/;"	f	file:
+split_string_vectors	stralg/vectors.c	/^void split_string_vectors($/;"	f
+sset	stralg/sa_is_mem.c	23;"	d	file:
+st	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree *st;$/;"	m	struct:ea_st_approx_match_iter	typeref:struct:ea_st_approx_match_iter::ea_suffix_tree
+st	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree *st;$/;"	m	struct:ea_st_leaf_iter	typeref:struct:ea_st_leaf_iter::ea_suffix_tree
+st	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree *st;$/;"	m	struct:internal_ea_st_approx_iter	typeref:struct:internal_ea_st_approx_iter::ea_suffix_tree
+st	stralg/suffix_tree.h	/^    struct suffix_tree *st;$/;"	m	struct:st_approx_match_iter	typeref:struct:st_approx_match_iter::suffix_tree
+st_approx_match	stralg/suffix_tree.h	/^struct st_approx_match {$/;"	s
+st_approx_match_iter	stralg/suffix_tree.h	/^struct st_approx_match_iter {$/;"	s
+st_compute_sa_and_lcp	stralg/suffix_tree.c	/^void st_compute_sa_and_lcp($/;"	f
+st_leaf_iter	stralg/suffix_tree.h	/^struct st_leaf_iter {$/;"	s
+st_leaf_iter_frame	stralg/suffix_tree.c	/^struct st_leaf_iter_frame {$/;"	s	file:
+st_leaf_iter_result	stralg/suffix_tree.h	/^struct st_leaf_iter_result {$/;"	s
+st_print_dot	stralg/suffix_tree.c	/^void st_print_dot($/;"	f
+st_print_dot_name	stralg/suffix_tree.c	/^void st_print_dot_name($/;"	f
+st_search	stralg/suffix_tree.c	/^st_search($/;"	f
+st_search_internal	stralg/suffix_tree.c	/^st_search_internal($/;"	f	file:
+st_search_iter	stralg/suffix_tree.h	/^struct st_search_iter {$/;"	s
+st_search_match	stralg/suffix_tree.h	/^struct st_search_match {$/;"	s
+stack	stralg/edge_array_suffix_tree.h	/^    struct ea_st_leaf_iter_frame *stack;$/;"	m	struct:ea_st_leaf_iter	typeref:struct:ea_st_leaf_iter::ea_st_leaf_iter_frame
+stack	stralg/suffix_tree.h	/^    struct st_leaf_iter_frame *stack;$/;"	m	struct:st_leaf_iter	typeref:struct:st_leaf_iter::st_leaf_iter_frame
+str_copy	stralg/string_utils.c	/^uint8_t *str_copy(const uint8_t *x)$/;"	f
+str_copy_n	stralg/string_utils.c	/^uint8_t *str_copy_n(const uint8_t *x, uint32_t n)$/;"	f
+str_inplace_rev	stralg/string_utils.c	/^void str_inplace_rev(uint8_t *x)$/;"	f
+str_inplace_rev_n	stralg/string_utils.c	/^void str_inplace_rev_n(uint8_t *x, uint32_t n)$/;"	f
+str_rev	stralg/string_utils.c	/^uint8_t *str_rev(const uint8_t *x)$/;"	f
+str_rev_n	stralg/string_utils.c	/^uint8_t *str_rev_n(const uint8_t *x, uint32_t n)$/;"	f
+string	stralg/edge_array_suffix_tree.h	/^    const uint8_t *string;$/;"	m	struct:ea_suffix_tree
+string	stralg/edit_distance_generator.h	/^    uint8_t *string;$/;"	m	struct:edit_iter
+string	stralg/suffix_array.h	/^    uint8_t *string;$/;"	m	struct:suffix_array
+string	stralg/suffix_tree.h	/^    const uint8_t *string;$/;"	m	struct:suffix_tree
+string_cmpfunc	stralg/vectors.c	/^static int string_cmpfunc ($/;"	f	file:
+string_front	stralg/edit_distance_generator.c	/^    uint8_t *string_front;$/;"	m	struct:edit_iter_frame	file:
+string_in_trie	stralg/trie.h	/^static inline bool string_in_trie($/;"	f
+string_label	stralg/aho_corasick.h	/^    int string_label;$/;"	m	struct:ac_match
+string_label	stralg/trie.h	/^    int string_label;$/;"	m	struct:output_list
+string_label	stralg/trie.h	/^    int string_label;$/;"	m	struct:trie
+string_to_trie	stralg/trie.c	/^string_to_trie($/;"	f	file:
+string_vector	stralg/vectors.h	/^struct string_vector {$/;"	s
+string_vector_append	stralg/vectors.h	/^static inline void string_vector_append($/;"	f
+string_vector_equal	stralg/vectors.c	/^bool string_vector_equal($/;"	f
+string_vector_get	stralg/vectors.h	/^static inline uint8_t *string_vector_get($/;"	f
+string_vector_set	stralg/vectors.h	/^static inline void string_vector_set($/;"	f
+suffix_array	stralg/suffix_array.h	/^struct suffix_array {$/;"	s
+suffix_link	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node *suffix_link;$/;"	m	struct:ea_suffix_tree_node	typeref:struct:ea_suffix_tree_node::ea_suffix_tree_node
+suffix_link	stralg/suffix_tree.h	/^    struct suffix_tree_node *suffix_link;$/;"	m	struct:suffix_tree_node	typeref:struct:suffix_tree_node::suffix_tree_node
+suffix_search	stralg/edge_array_suffix_tree.c	/^suffix_search($/;"	f	file:
+suffix_search	stralg/suffix_tree.c	/^suffix_search($/;"	f	file:
+suffix_tree	stralg/suffix_tree.h	/^struct suffix_tree {$/;"	s
+suffix_tree_node	stralg/suffix_tree.h	/^struct suffix_tree_node {$/;"	s
+suffix_tree_node_pool	stralg/suffix_tree.h	/^struct suffix_tree_node_pool {$/;"	s
+table	stralg/remap.h	/^    signed char table[256];$/;"	m	struct:remap_table
+to	stralg/suffix_tree.h	/^    const uint8_t *to;$/;"	m	struct:range
+trie	stralg/trie.h	/^struct trie {$/;"	s
+trie_print_dot	stralg/trie.c	/^void trie_print_dot($/;"	f
+trie_print_dot_fname	stralg/trie.c	/^void trie_print_dot_fname($/;"	f
+u	stralg/skew.c	/^    uint32_t *u;                   \/\/ 3*(2\/3n+1)$/;"	m	struct:skew_buffers	file:
+upper_bound_k	stralg/suffix_array.c	/^uint32_t upper_bound_k($/;"	f
+upper_bound_search	stralg/suffix_array.c	/^uint32_t upper_bound_search($/;"	f
+used	stralg/vectors.h	/^    uint32_t used;$/;"	m	struct:index_vector
+used	stralg/vectors.h	/^    uint32_t used;$/;"	m	struct:pointer_vector
+used	stralg/vectors.h	/^    uint32_t used;$/;"	m	struct:string_vector
+v	stralg/aho_corasick.h	/^    struct trie *v, *w;$/;"	m	struct:ac_iter	typeref:struct:ac_iter::trie
+v	stralg/edge_array_suffix_tree.c	/^    struct ea_suffix_tree_node *v;$/;"	m	struct:sa_lcp_frame	typeref:struct:sa_lcp_frame::ea_suffix_tree_node	file:
+v	stralg/edge_array_suffix_tree.h	/^    struct ea_suffix_tree_node *v;$/;"	m	struct:ea_st_approx_frame	typeref:struct:ea_st_approx_frame::ea_suffix_tree_node
+v	stralg/suffix_tree.c	/^    struct suffix_tree_node *v;$/;"	m	struct:sa_lcp_frame	typeref:struct:sa_lcp_frame::suffix_tree_node	file:
+vector_append	stralg/vectors.h	17;"	d
+vector_get	stralg/vectors.h	24;"	d
+vector_init	stralg/vectors.h	9;"	d
+vector_set	stralg/vectors.h	25;"	d
+w	stralg/aho_corasick.h	/^    struct trie *v, *w;$/;"	m	struct:ac_iter	typeref:struct:ac_iter::
+write_bwt_table	stralg/bwt.c	/^void write_bwt_table($/;"	f
+write_bwt_table_fname	stralg/bwt.c	/^void write_bwt_table_fname($/;"	f
+write_complete_bwt_info	stralg/serialise.c	/^void write_complete_bwt_info($/;"	f
+write_complete_bwt_info_fname	stralg/serialise.c	/^void write_complete_bwt_info_fname($/;"	f
+write_remap_table	stralg/remap.c	/^void write_remap_table($/;"	f
+write_remap_table_fname	stralg/remap.c	/^void write_remap_table_fname($/;"	f
+write_string	stralg/string_utils.c	/^void write_string(FILE *f, const uint8_t *str)$/;"	f
+write_string_fname	stralg/string_utils.c	/^void write_string_fname(const char *fname, const uint8_t *str)$/;"	f
+write_string_len	stralg/string_utils.c	/^void write_string_len(FILE *f, const uint8_t *str, uint32_t len)$/;"	f
+write_string_len_fname	stralg/string_utils.c	/^void write_string_len_fname(const char *fname, const uint8_t *str, uint32_t len)$/;"	f
+write_suffix_array	stralg/suffix_array.c	/^void write_suffix_array(FILE *f, const struct suffix_array *sa)$/;"	f
+write_suffix_array_fname	stralg/suffix_array.c	/^void write_suffix_array_fname(const char *fname,$/;"	f
+x	stralg/aho_corasick.h	/^    const uint8_t *x;$/;"	m	struct:ac_iter
+x	stralg/edge_array_suffix_tree.h	/^    const uint8_t *x;$/;"	m	struct:ea_st_approx_frame
+x	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:bm_match_iter
+x	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:bmh_match_iter
+x	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:border_match_iter
+x	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:kmp_match_iter
+x	stralg/match.h	/^    const uint8_t *x; uint32_t n;$/;"	m	struct:naive_match_iter

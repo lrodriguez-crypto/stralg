@@ -30,6 +30,9 @@ add_library(stralg SHARED
 	suffix_tree.h suffix_tree.c
 	edge_array_suffix_tree.h edge_array_suffix_tree.c
 	trie.h trie.c
+
+	#cpp utils
+	suffix_array_util.cpp
 )
 set_target_properties(
 	stralg PROPERTIES FOLDER Libraries/StrAlg

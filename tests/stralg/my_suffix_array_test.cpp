@@ -14,79 +14,34 @@ extern "C" {
 	#include <suffix_array.h>
 }
 
-/*
- *static void test_order(struct suffix_array *sa) {
- *    for (uint32_t i = 1; i < sa->length; ++i)
- *        assert(strcmp((char *)(sa->string + sa->array[i-1]),
- *                      (char *)(sa->string + sa->array[i]))
- *               < 0);
- *}
- *
- *static void test_inverse(struct suffix_array *sa) {
- *    compute_inverse(sa);
- *    for (uint32_t i = 0; i < sa->length; ++i) {
- *        assert(sa->inverse[sa->array[i]] == i);
- *        assert(sa->array[sa->inverse[i]] == i);
- *    }
- *}
- *
- *static int lcp(const uint8_t *a, const uint8_t *b) {
- *    int l = 0;
- *    while (*a && *b && *a == *b) {
- *        ++a; ++b; ++l;
- *    }
- *    return l;
- *}
- *
- *static void test_lcp(struct suffix_array *sa) {
- *    compute_lcp(sa);
- *
- *    //assert(sa->lcp[0] == sa->lcp[sa->length]);
- *    assert(sa->lcp[0] == 0);
- *
- *    for (uint32_t i = 1; i < sa->length; ++i) {
- *        uint32_t l = lcp(sa->string + sa->array[i-1], sa->string + sa->array[i]);
- *        assert(sa->lcp[i] == l);
- *    }
- *}
- *
- */
-//print sa, isa (inverse), lcp
-static void print_arrays(struct suffix_array *sa, uint8_t *cad){
-    for (uint32_t i = 0; i < sa->length; ++i)
-        printf("sa[%3d] == %3u\t%s\n", i, sa->array[i], cad + sa->array[i]);
-    printf("\n");
+#include <suffix_array_util.hpp>
 
-    for (uint32_t i = 0; i < sa->length; ++i)
-        printf("isa[%3d] == %3u\t%s\n", i, sa->inverse[i], cad + i);
-    printf("\n");
+static std::string read_file(std::string filename){
+	std::ifstream input_text{filename};
 
-    for (uint32_t i = 0; i < sa->length; ++i)
-        printf("lcp[%3d] == %3u\t%s\n", i, sa->lcp[i], cad + sa->array[i]);
-    printf("\n");
- }
+	if(!input_text){
+		std::cerr << filename + ": Error opening file" << std::endl;
+		perror(filename.c_str());
+		exit(-1);
+	}
 
-//save sa, isa, lcp in files
-static void save_arrays(struct suffix_array *sa, uint8_t *cad, std::string filename){
-	std::cout << "[" << cad << "]" << std::endl;
+	std::stringstream buffer;
+	buffer << input_text.rdbuf();
 
-	std::ofstream output_sa{filename + ".sa"};
-    for (uint32_t i = 0; i < sa->length; ++i)
-		output_sa << sa->array[i] << std::endl;
-		//output_sa << i << "," << sa->array[i] << "," << (cad + sa->array[i]) << std::endl;
-	output_sa.close();
+    return buffer.str();
+}
 
-	std::ofstream output_isa{filename + ".isa"};
-    for (uint32_t i = 0; i < sa->length; ++i)
-		output_isa << sa->inverse[i] << std::endl;
-		//output_isa << i << "," << sa->inverse[i] << "," << (cad + i) << std::endl;
-	output_isa.close();
+static std::vector<std::string> read_patterns(std::string patterns_filename){
+	//Read patterns
+	std::vector<std::string> patterns;
 
-	std::ofstream output_lcp{filename + ".lcp"};
-    for (uint32_t i = 0; i < sa->length; ++i)
-		output_lcp << sa->lcp[i] << std::endl;
-		//output_lcp << i << "," << sa->lcp[i] << "," << (cad + sa->array[i]) << std::endl;
-	output_lcp.close();
+	std::ifstream input_patterns{patterns_filename};
+	std::string line;
+
+	while (getline(input_patterns, line)) 
+		patterns.push_back(line); 
+
+	return patterns;
 }
 
 static std::pair<int, int> search_pattern(struct suffix_array *sa, uint8_t *pattern){
@@ -95,26 +50,23 @@ static std::pair<int, int> search_pattern(struct suffix_array *sa, uint8_t *patt
 	return {l_idx, u_idx};
 }
 
-static void my_tests(uint8_t* text, std::vector<std::string> patterns, std::string filename){
+static void my_tests(std::string text, std::vector<std::string> patterns, std::string filename){
 
-	printf("text: [%s]\n\n\n", text);
+	std::cout << "Text: [" << text << "]" << std::endl;
 
     struct suffix_array *sa;
-    sa = skew_sa_construction(text);
+    sa = skew_sa_construction((uint8_t *)text.c_str());
     compute_lcp(sa);
-	print_arrays(sa, text);
-   
-	//test_order(sa);
-	//test_inverse(sa);
-	//test_lcp(sa);
+	print_suffix_array(sa);
+	//test_order(sa); //test_inverse(sa); //test_lcp(sa); //if required check suffix_array_rest.c
 
-	save_arrays(sa, text, filename);
+	Save::save_to_file(sa, filename, true);
 
 	std::ofstream patterns_idxs{filename + ".idxs"};
 	for(auto &pattern: patterns){
 		auto idx = search_pattern(sa, (uint8_t *)pattern.c_str());
 		std::cout << idx.first << "," << idx.second << " : pattern: " << pattern << std::endl;
-		patterns_idxs << idx.first << "," << idx.second << " [" << pattern << "]" << std::endl;
+		patterns_idxs << idx.first << "," << idx.second << ",[" << pattern << "]" << std::endl;
 	}
 	patterns_idxs.close();
 
@@ -129,36 +81,15 @@ int main(int argc, char *argv[]) {
 		exit(-1);
 	}
 
-	std::string text_file_name{argv[1]};
-	std::string patterns_file_name{argv[2]};
+	std::string text_filename{argv[1]};
+	std::string patterns_filename{argv[2]};
 
-	std::cout << "Input text file name: " << text_file_name << std::endl;
-	std::cout << "Input patterns file name: " << patterns_file_name << std::endl;
+	std::cout << "Input text file name: " << text_filename << std::endl;
+	std::cout << "Input patterns file name: " << patterns_filename << std::endl;
 
-	std::ifstream input_text{argv[1]};
-	std::ifstream input_patterns{argv[2]};
+	std::string text = read_file(text_filename);
+	std::vector<std::string> patterns = read_patterns(patterns_filename);
 
-	if(!input_text){
-		std::cerr << text_file_name + ": Error opening file" << std::endl;
-		perror(text_file_name.c_str());
-		exit(-1);
-	}
-
-	if(!input_patterns){
-		std::cerr << patterns_file_name + ": Error opening file" << std::endl;
-		perror(patterns_file_name.c_str());
-		exit(-1);
-	}
-
-	std::string line;
-	std::vector<std::string> patterns;
-	while (getline(input_patterns, line)) 
-		patterns.push_back(line);
-
-	std::stringstream buffer;
-	buffer << input_text.rdbuf();
-	std::cout << buffer.str().c_str() << std::endl;
-
-	my_tests((uint8_t*)buffer.str().c_str(), patterns, text_file_name);
+	my_tests(text, patterns, text_filename);
     return EXIT_SUCCESS;
 }

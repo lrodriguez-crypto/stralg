@@ -274,11 +274,13 @@ void print_suffix_array(struct suffix_array *sa)
     }
     if (sa->lcp) {
         printf("\n");
-        for (uint32_t i = 0; i < sa->length; ++i) {
-            printf("lcp[%3u] =%3uzu\t%s\n",
-                   i, sa->lcp[i], sa->string + sa->array[i]);
-        }
-        
+        for (uint32_t i = 0; i < sa->length; ++i)
+            printf("lcp[%3u] =%3u\t%s\n", i, sa->lcp[i], sa->string + sa->array[i]);
+    }
+    if (sa->inverse) {
+        printf("\n");
+		for (uint32_t i = 0; i < sa->length; ++i)
+			printf("isa[%3d] == %3u\t%s\n", i, sa->inverse[i], sa->string + i);
     }
 }
 
